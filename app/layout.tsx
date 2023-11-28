@@ -1,4 +1,5 @@
-import About from './components/About'
+
+import Footer from './components/Footer'
 import './globals.css'
 
 
@@ -9,11 +10,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className='' lang="en">
-      <body className='flex flex-col'>
-        <div className="">{children}</div>
+    <html lang="en">
+      <body className='overflow-x-hidden flex flex-col bg-[#ECECEC]'>
         <div className="">
-          <About />
+          {children}
+          <Footer />
         </div>
       </body>
 
