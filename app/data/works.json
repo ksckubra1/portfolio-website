@@ -1,74 +1,243 @@
 [
     {
-        "id": "1",
-        "banner": "/images/proje-1.jpg"
+        "id": 1,
+        "title": "Mercedes Barbie Edition",
+        "subtitle": "Otomotiv Sitesi",
+        "tech": [
+            "React.js",
+            "Tailwindcss",
+            "Blender3D Video Render"
+        ],
+        "demo": "https://barbie-car-website.vercel.app/",
+        "github": "https://github.com/ksckubra1/barbie-car-website",
+        "images": [
+            "/images/proje-1.png"
+        ],
+        "videos": [
+            "/videos/video1.mp4"
+        ]
     },
     {
-        "id": "2",
-        "banner": "/images/proje-2.jpg"
+        "id": 2,
+        "title": "Smoothies Website",
+        "subtitle": "Yemek sitesi",
+        "tech": [
+            "React.js",
+            "Tailwindcss"
+        ],
+        "demo": "https://smoothies-website.vercel.app/",
+        "github": "https://github.com/ksckubra1/smoothies-website",
+        "images": [
+            "/images/proje-2.png"
+        ],
+        "videos": [
+            "/videos/video8.mp4"
+        ]
     },
     {
-        "id": "3",
-        "banner": "/images/proje-3.jpg"
+        "id": 3,
+        "title": "Login and Register Website ",
+        "subtitle": "Giriş yapma ve kayıt olma",
+        "tech": [
+            "React.js",
+            "Tailwindcss"
+        ],
+        "images": [
+            "/images/proje-3.png"
+        ],
+        "videos": [
+            "/videos/video6.mp4"
+        ]
     },
     {
-        "id": "4",
-        "banner": "/images/proje-4.jpg"
+        "id": 4,
+        "title": "Rothie Website",
+        "subtitle": "Alışveriş sitesi",
+        "tech": [
+            "React.js",
+            "Tailwindcss",
+            "Next.js",
+            "Context Provider"
+        ],
+        "demo": "https://rothe-website.vercel.app/",
+        "github": "https://github.com/ksckubra1/rothe-website",
+        "images": [
+            "/images/proje-4.png"
+        ],
+        "videos": [
+            "/videos/video9.mp4"
+        ]
     },
     {
-        "id": "5",
-        "banner": "/images/proje-5.jpg"
+        "id": 5,
+        "title": "Sun Cools Website",
+        "subtitle": "İçecek sitesi",
+        "tech": [
+            "Tailwindcss"
+        ],
+        "demo": "https://sun-cools-website.vercel.app/",
+        "github": "https://github.com/ksckubra1/sun-cools-website",
+        "images": [
+            "/images/proje-5.png"
+        ],
+        "videos": [
+            "/videos/video7.mp4"
+        ]
     },
     {
-        "id": "6",
-        "banner": "/images/proje-6.jpg"
+        "id": 6,
+        "title": "Holiday Website",
+        "subtitle": "Tatil sitesi",
+        "tech": [
+            "Css"
+        ],
+        "images": [
+            "/images/proje-15.png"
+        ],
+        "videos": [
+            "/videos/video13.mp4"
+        ]
     },
     {
-        "id": "7",
-        "banner": "/images/proje-7.jpg"
+        "id": 7,
+        "title": "Login Website",
+        "subtitle": "Giriş yapma sitesi",
+        "tech": [
+            " React.js",
+            "Tailwind"
+        ],
+        "images": [
+            "/images/proje-7.png"
+        ],
+        "videos": [
+            "/videos/video3.mp4"
+        ]
     },
     {
-        "id": "8",
-        "banner": "/images/proje-8.jpg"
+        "id": 8,
+        "title": "Visionary Website",
+        "subtitle": "Oda Dizaynı sitesi",
+        "tech": [
+            "React"
+        ],
+        "demo": "https://visionary-website.vercel.app/",
+        "github": "https://github.com/ksckubra1/visionary-website",
+        "images": [
+            "/images/proje-9.png"
+        ],
+        "videos": [
+            "/videos/video5.mp4"
+        ]
     },
     {
-        "id": "9",
-        "banner": "/images/proje-9.jpg"
+        "id": 9,
+        "title": "Travel Website",
+        "subtitle": "Seyahat Sitesi",
+        "tech": [
+            "React",
+            "Tailwind"
+        ],
+        "demo": "https://turkey-view-roll.vercel.app/",
+        "github": "https://github.com/ksckubra1/turkey-view-roll",
+        "images": [
+            "/images/proje-10.png"
+        ],
+        "videos": [
+            "/videos/video2.mp4"
+        ]
     },
     {
-        "id": "10",
-        "banner": "/images/proje-10.jpg"
+        "id": 10,
+        "title": "Social Guide Website",
+        "subtitle": "Sosyal Rehber Sitesi",
+        "tech": [
+            "React",
+            "Tailwind"
+        ],
+        "demo": "https://social-website-amber.vercel.app/",
+        "github": "https://github.com/ksckubra1/social-website",
+        "images": [
+            "/images/proje-6.png"
+        ],
+        "videos": [
+            "/videos/video11.mp4"
+        ]
     },
     {
-        "id": "11",
-        "banner": "/images/proje-11.jpg"
+        "id": 11,
+        "title": "Travel Website",
+        "subtitle": "Seyahat Sitesi",
+        "demo": "https://turkey-website-63276o8oa-kubra-kuscus-projects.vercel.app/",
+        "github": "https://github.com/ksckubra1/turkey-website",
+        "images": [
+            "/images/proje-11.png"
+        ],
+        "videos": [
+            "/videos/video10.mp4"
+        ]
     },
     {
-        "id": "12",
-        "banner": "/images/proje-12.jpg"
+        "id": 12,
+        "Title": "Login and Register Website",
+        "Subtitle": "Giriş yapma ve kayıt olma sitesi",
+        "tech": [
+            "React",
+            "Tailwind"
+        ],
+        "images": [
+            "/images/proje-13.png"
+        ],
+        "videos": [
+            "/videos/video12.mp4"
+        ]
     },
     {
-        "id": "13",
-        "banner": "/images/proje-13.jpg"
+        "id": 13,
+        "Title": "Plant Website",
+        "Subtitle": "Bitki Sitesi",
+        "tech": [
+            "React",
+            "Tailwind"
+        ],
+        "images": [
+            "/images/proje-12.png"
+        ]
     },
     {
-        "id": "14",
-        "banner": "/images/proje-14.jpg"
+        "id": 14,
+        "Title": "Todo App",
+        "Subtitle": "Yapılacaklar Listesi Hazırlama",
+        "tech": [
+            "React",
+            "Tailwind",
+            "Context Provider"
+        ],
+        "demo": "https://todo-app-five-puce.vercel.app/",
+        "github": "https://github.com/ksckubra1/todo-app",
+        "images": [
+            "/images/proje-15.jpg"
+        ]
     },
     {
-        "id": "15",
-        "banner": "/images/proje-15.jpg"
+        "id": 15,
+        "title": "Admin Dasborad",
+        "Subtitle": "Yönetici Kontrol Paneli",
+        "tech": [
+            "Tailwindcss"
+        ],
+        "images": [
+            "/images/proje-16.webp"
+        ]
     },
     {
-        "id": "16",
-        "banner": "/images/proje-16.jpg"
-    },
-    {
-        "id": "17",
-        "banner": "/images/proje-17.jpg"
-    },
-    {
-        "id": "18",
-        "banner": "/images/proje-18.jpg"
+        "id": 16,
+        "title": "Shop Website",
+        "Subtitle": "Shoping Website",
+        "tech": [
+            "Css"
+        ],
+        "images": [
+            "/images/proje-17.jpg"
+        ]
     }
 ]

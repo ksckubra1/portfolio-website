@@ -1,6 +1,7 @@
-
+'use client';
 import Footer from './components/Footer'
 import './globals.css'
+
 
 
 
@@ -12,10 +13,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='overflow-x-hidden flex flex-col bg-[#ECECEC]'>
-        <div className="">
-          {children}
-          <Footer />
-        </div>
+        {children}
+        <Footer />
       </body>
 
     </html>
