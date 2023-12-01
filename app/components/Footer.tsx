@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
     return (
         <div className="w-full h-72 flex flex-col bg-[#171717] lg:px-20 border-t border-white/20">
@@ -8,10 +10,10 @@ export default function Footer() {
                 <div className="text-6xl text-white">CONTACT</div>
             </div>
             <div className="flex justify-center h-10 gap-4">
-                <img className="w-12 h-12" src="/images/instagram-icon.png" alt="" />
+                <Link href={"https://instagram.com/k.kuscu_webdesign"}><img className="w-12 h-12" src="/images/instagram-icon.png" alt="" /></Link>
                 <div className="flex gap-7">
-                    <img className="w-6 h-6 mt-3" src="/images/github-icon.png" alt="" />
-                    <img className="w-6 h-6 mt-3" src="/images/linkedin-icon.png" alt="" />
+                    <Link href={"https://github.com/ksckubra1"}><img className="w-6 h-6 mt-3" src="/images/github-icon.png" alt="" /></Link>
+                    <Link href={"https://www.linkedin.com/in/k%C3%BCbra-ku%C5%9Fcu-10516525a/"}><img className="w-6 h-6 mt-3" src="/images/linkedin-icon.png" alt="" /></Link>
                 </div>
             </div>
             <div className="flex h-20 text-[8px] lg:text-lg items-center text-white px-10 lg:p-0 justify-between">
