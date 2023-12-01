@@ -33,7 +33,7 @@ export default function Work() {
   }
 
   return (
-    <div className="w-screen flex flex-col bg-[#292828] xl:h-screen">
+    <div className=" flex flex-col bg-[#292828] xl:h-screen">
       <div className="h-20 justify-between bg-[#171717] sm:px-24 md:px-5 xl:px-[325px] px-5  flex items-center border-white/20 border-t">
         <span className=" font-bold lg:text-2xl text-[#e7e5e5] bottom-1">PROJELER</span>
         <Link href={"/work"} className="text-white text-sm lg:text-lg">Tümünü İncele</Link>

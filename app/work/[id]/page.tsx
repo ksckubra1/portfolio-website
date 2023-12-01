@@ -4,6 +4,7 @@ import Header from "../../components/Header"
 import works from "@/app/data/works.json"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faFaceDizzy } from '@fortawesome/free-solid-svg-icons'
 import { useRef, useState } from "react";
 import { IWork } from "@/app/data/works";
 import { motion } from "framer-motion";
@@ -18,8 +19,10 @@ export default function Work({ params }: { params: { id: number } }) {
         return <div className="w-screen bg-[#282828] flex items-center flex-col"
         >
             <Header />
-            <div className="flex h-screen justify-center items-center">
-                <span className="text-xl text-white">Proje Bulunamadı..</span>
+            <div className="flex h-[calc(100vh-22rem)] justify-center items-center flex-col gap-3">
+                <span className="text-xl text-white/30">Proje Bulunamadı..</span>
+                <FontAwesomeIcon className="text-white/30 h-10 xl:h-14" icon={faFaceDizzy} />
+
             </div>
         </div>
     }
@@ -97,11 +100,11 @@ export default function Work({ params }: { params: { id: number } }) {
                     </div>
                     {
                         currentSlide != 0 &&
-                        <FontAwesomeIcon onClick={prevBtn} className="cursor-pointer h-20 w-20 absolute bottom-72 left-10 text-[#494848] z-50" icon={faChevronLeft} />
+                        <FontAwesomeIcon onClick={prevBtn} className="cursor-pointer lg:h-20 lg:w-20 h-10 w-10  absolute top-1/2 md:left-8 left-2 -translate-y-1/2  text-[#494848] z-50" icon={faChevronLeft} />
                     }
                     {
                         currentSlide != slideList.length - 1 &&
-                        <FontAwesomeIcon onClick={nextBtn} className="cursor-pointer h-20 w-20 absolute bottom-72 right-10 text-[#494848] z-50" icon={faChevronRight} />
+                        <FontAwesomeIcon onClick={nextBtn} className="cursor-pointer lg:h-20 lg:w-20 h-10 w-10 absolute top-1/2 md:right-8 right-2 -translate-y-1/2 text-[#494848] z-50" icon={faChevronRight} />
                     }
                 </motion.div>
                 <motion.div
