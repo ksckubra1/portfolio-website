@@ -1,6 +1,6 @@
 # Kübra Kuşcu Portfolio
 
-## Used Technologia 
+## Used Technologies
 
 - React.js
 - Tailwindcss
