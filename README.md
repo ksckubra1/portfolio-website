@@ -3,6 +3,7 @@
 ## Used Technologies
 
 - React.js
+- Next.js
 - Tailwindcss
 - Typescript
 - Framer Motion
